@@ -126,13 +126,6 @@ public class Versiones2 {
 		for (int ind = 0; ind < texto.length; ind++) {
 			String a = texto[ind];
 			
-			/*for (int i = 0; i < texto[ind].length(); i++) {
-				if (texto[ind].startsWith("0") && texto[ind].length() > 1) {
-					a = texto[ind].substring(1, texto[ind].length());
-				}
-			}*/
-			
-			
 			if (texto[ind].startsWith("0") && texto[ind].length() > 1) {
 				a = texto[ind].substring(1, texto[ind].length());
 			}

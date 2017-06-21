@@ -100,15 +100,14 @@ public class tenis {
 	}
 	
 	
-	static void jugarSet(float sets, String j1, String j2) {
+	static void jugarSet(double sets, String j1, String j2) {
 		
 		
 		int juegosJug1 = 0;
 		int juegosJug2 = 0;
 		int setJug1 = 0;
 		int setJug2 = 0;
-		float set1 = (sets/2);
-		double set = set1 + 0.5;
+		double set = (sets / 2) + 0.5;
 		boolean finPartido = false;
 		
 		while (!finPartido) {

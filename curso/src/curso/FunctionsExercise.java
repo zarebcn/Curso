@@ -99,7 +99,7 @@ public class FunctionsExercise {
 		// 11- Define a method that takes two arrays and returns true if
 		//     they contain the same numbers.
 		int[] array1 = {1, 2 ,3};
-		int[] array2 = {1, 2 ,4};
+		int[] array2 = {1, 2 ,3};
 		//boolean equal = compareArrays(array1, array2); // false
 
 		// What happens if one array is longer than the other? It should return false!
@@ -199,7 +199,7 @@ public class FunctionsExercise {
 		
 		boolean resultado = false;
 		if (array1.length == array2.length){
-	        int coincide =0;
+	        int coincide = 0;
 	        for (int i = 0; i < array1.length; i++){
 	            if(array1[i] == array2[i])
 	                coincide = coincide + 1;

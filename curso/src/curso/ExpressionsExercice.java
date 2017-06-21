@@ -1,9 +1,6 @@
 package curso;
 
 
-import java.util.*;
-
-
 /**
  *  Solve the questions or exercises! :)
  */

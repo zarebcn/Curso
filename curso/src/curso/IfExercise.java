@@ -1,6 +1,5 @@
 package curso;
 	
-import java.util.*;
 
 
 /**
